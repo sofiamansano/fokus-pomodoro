@@ -1,5 +1,5 @@
-import {View, Text, Image, StyleSheet, Pressable, ImageSourcePropType} from 'react-native';
-import {useState} from 'react';
+import { View, Text, Image, StyleSheet, Pressable, ImageSourcePropType } from 'react-native';
+import { useState } from 'react';
 import { FokusButton } from '@/assets/components/FokusButton';
 import { ActionButton } from '@/assets/components/ActionButton';
 
@@ -29,9 +29,7 @@ const pomodoro = [
         initialValue: 15,
         imagem: require('@/assets/longo.png'),
         display: 'Pausa Longa'
-
-
-    },
+ },
 ]
 
 export default function index(){
